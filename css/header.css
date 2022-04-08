@@ -1,0 +1,47 @@
+.color1 {
+  background-color: #121819;
+  color: #f8efcf;
+  width: 100%;
+
+}
+.color2 {
+  background-color: #12455f;
+  color: #efca6e;
+  width: 40px;
+}
+.color3 {
+  background-color: #c5690f;
+  color:#121819;
+  width: 40px;
+}
+.color4 {
+  background-color: #efca6e;
+  color: #12455f;
+  width: 40px;
+}
+.color5 {
+  background-color: #f8efcf;
+  color:#121819;
+  width: 40px;
+}
+.contenedor{
+  display: flex;
+}
+.columna{
+  width: 8%;
+  padding: 12px;
+  display: inline-block;
+  margin: 0.3%;
+}
+.columna-2{
+  width: 49.8%;
+  padding: 12px;
+  display: inline-block;
+  margin: 0.3%;
+}
+.columna-3{
+  width: 16.3%;
+  padding: 12px;
+  display: inline-block;
+  margin: 0.3%;
+}
