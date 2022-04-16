@@ -1,47 +1,136 @@
+
 .color1 {
   background-color: #121819;
   color: #f8efcf;
-  width: 100%;
-
 }
 .color2 {
-  background-color: #12455f;
+  background-color:  #12455f;
   color: #efca6e;
-  width: 40px;
+
 }
 .color3 {
   background-color: #c5690f;
-  color:#121819;
-  width: 40px;
+  color: #f8efcf;
+
 }
 .color4 {
   background-color: #efca6e;
   color: #12455f;
-  width: 40px;
+
 }
 .color5 {
   background-color: #f8efcf;
   color:#121819;
-  width: 40px;
+
 }
 .contenedor{
-  display: flex;
+  display: inline-flex;
+  margin: 0;
+  width: 100%;
+}
+.contenedor-items{
+  display: flow-root;
+  margin: 0;
+  width: 100%;
+
+}
+.item{
+  width:auto;
+  padding: 12px;
+  display: inline-block;
+  margin: 0.3%;
 }
 .columna{
-  width: 8%;
+  width: 8.3%;
   padding: 12px;
   display: inline-block;
   margin: 0.3%;
 }
 .columna-2{
-  width: 49.8%;
+  width: 16.6%;
   padding: 12px;
   display: inline-block;
   margin: 0.3%;
 }
 .columna-3{
-  width: 16.3%;
+  width: 25%;
   padding: 12px;
   display: inline-block;
   margin: 0.3%;
+}
+.columna-4{
+  width: 33.3%;
+  padding: 12px;
+  display: inline-block;
+  margin: 0.3%;
+}
+.columna-5{
+  width: 41.6%;
+  padding: 12px;
+  display: inline-block;
+  margin: 0.3%;
+}
+.columna-6{
+  width: 50%;
+  padding: 12px;
+  display: inline-block;
+  margin: 0.3%;
+}
+.columna-7{
+  width: 58.3%;
+  padding: 12px;
+  display: inline-block;
+  margin: 0.3%;
+}
+.columna-8{
+  width: 66.6%;
+  padding: 12px;
+  display: inline-block;
+  margin: 0.3%;
+}
+.columna-9{
+  width: 75%;
+  padding: 12px;
+  display: inline-block;
+  margin: 0.3%;
+}
+.columna-10{
+  width: 83.3%;
+  padding: 12px;
+  display: inline-block;
+  margin: 0.3%;
+}
+.columna-11{
+  width: 91,6%;
+  padding: 12px;
+  display: inline-block;
+  margin: 0.6%;
+}
+.contenedor-table{
+overflow-x:auto;
+display: flow-root;
+margin: 0;
+width: 100%;
+
+}
+
+table {
+    border-collapse: collapse;
+    overflow-x:auto;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+  background-color: #f8efcf;
+  color: #12455f;
+}
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
 }
