@@ -8,7 +8,7 @@ function loginFunc(e)
 
     var urllogin = 'https://ServidorTest.carlos-reneren7.repl.co/login';
     var data = {user: username, password: clave};
-    
+
     fetch(urllogin, {
       method: 'POST', // or 'PUT'
       body: JSON.stringify(data), // data can be `string` or {object}!
@@ -20,7 +20,7 @@ function loginFunc(e)
     .then(response => console.log('Success:', response));
     //var mostrar = document.getElementById('mostrar');
   /*
-  
+
     var user = localStorage.getItem(user);
     var data = JSON.parse(user);
     console.log(data);
@@ -38,7 +38,7 @@ function loginFunc(e)
 
 
 if(localStorage.getItem("user")!=null) {
-  window.location.href="html/dashboard.html";
+  window.location.href="dashboard.html";
 }
 
 
@@ -51,7 +51,7 @@ document.getElementById("ingresar").onclick = function () {
 
     var urllogin = 'https://ServidorTest.carlos-reneren7.repl.co/login';
     var data = {user: username, password: clave};
-    
+
     fetch(urllogin, {
       method: 'POST', // or 'PUT'
       body: JSON.stringify(data), // data can be `string` or {object}!
@@ -59,7 +59,7 @@ document.getElementById("ingresar").onclick = function () {
         'Content-Type': 'application/json'
       }
 
-      
+
     }).then(res => res.json())
     .catch(error => console.error('Error:', error))
     .then(response => {
@@ -67,18 +67,18 @@ document.getElementById("ingresar").onclick = function () {
                           console.log('Success:', response);
                           localStorage.setItem("user", response.user);
                           localStorage.setItem("name", response.name);
-                          window.location.href="html/dashboard.html";
+                          window.location.href="dashboard.html";
                         }else{
                           alert("Los datos son invalidos");
                         }
                       }
          );
 
-    
-  
-    //var mostrar = document.getElementById('mostrar');
+
+
+    var mostrar = document.getElementById('mostrar');
   /*
-  
+
     var user = localStorage.getItem(user);
     var data = JSON.parse(user);
     console.log(data);
