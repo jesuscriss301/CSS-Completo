@@ -1,27 +1,45 @@
 
+.text-claro{
+  color: #f8efcf;
+}
+.text-claro span{
+  color: #efca6e;
+}
 .color1 {
   background-color: #121819;
   color: #f8efcf;
 }
+.color1  span{
+  color: #efca6e;
+}
 .color2 {
   background-color:  #12455f;
   color: #efca6e;
-
+}
+.color2 span{
+  color: #f8efcf;
 }
 .color3 {
   background-color: #c5690f;
   color: #f8efcf;
-
 }
+.color3 span{
+  color: #efca6e;
+}
+
 .color4 {
   background-color: #efca6e;
   color: #12455f;
-
+}
+.color4 span{
+  color:#121819;
 }
 .color5 {
   background-color: #f8efcf;
   color:#121819;
-
+}
+.color5 span{
+  color: #12455f;
 }
 .contenedor{
   display: inline-flex;
@@ -130,7 +148,5 @@ tr:nth-child(even){
   color: #12455f;
 }
 @media screen and (min-width: 480px) {
-    body {
-        background-color: lightgreen;
-    }
+
 }
